@@ -4,13 +4,6 @@ public class User {
     private String userId;
     private String password;
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "userid='" + userId + '\'' +
-                ", password='" + password + '\'' +
-                '}';
-    }
 
     public String getUserId() {
         return userId;
